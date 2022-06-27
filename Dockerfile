@@ -18,4 +18,4 @@ RUN pip install \
 COPY src/* ${FUNCTION_DIR}
 
 ENTRYPOINT [ "sh", "entry_script.sh" ]
-CMD [ "app.handler" ]
+CMD [ "lambda.handler" ]
